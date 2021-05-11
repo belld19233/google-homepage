@@ -1,0 +1,97 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+.nav-links {
+    display: grid;
+    font-size: 14px;
+    height: 50px;
+    grid-template-columns: 1fr 3fr;
+    padding-top: 10px;
+}
+
+.nav-links-left {
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.nav-links-right{
+    margin-left: auto;
+}
+
+.apps {
+    padding-bottom: 0px;
+}
+
+
+div.logo {
+    display: grid;
+    justify-items: center;
+}
+
+img.logo {
+    width: 250px;
+    height: auto;
+}
+
+.sign-in {
+    color: white;
+    background-color: #2B7DE9;
+    border-radius: 4px;
+    margin: 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text-input {
+    padding: 0px 5px 5px 5px;
+    width: 500px;
+}
+
+.search-form {
+    display: grid;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.search-buttons {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+}
+
+.button {
+    background-color: #dadce0;
+    color: black;
+    border: none;
+    font-size: 14px;
+    margin: 7px 7px 7px 7px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #dadce0;
+    justify-content: end;
+}
+
+.foot {
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+    column-gap: 5px;
+}
